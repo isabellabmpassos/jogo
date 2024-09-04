@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #91BFA3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #FF251B;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.badge {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#user-score, #comp-score {
+    font-size: 2rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.choice {
+    cursor: pointer;
+}
+
+.choice img {
+    width: 100px;
+    height: 100px;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+#result-message {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
